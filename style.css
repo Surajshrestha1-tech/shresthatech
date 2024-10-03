@@ -1,0 +1,45 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap");
+/* LOgo  */
+/* .logo{
+    width: 50%;
+} */
+.container-fluid{
+     background-color: #337ab7;
+     color: #ffffff;
+}
+.row{
+   
+    
+    /* align-items: center;
+    justify-content: space-between; */
+}
+p{
+  
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 0 !important;
+
+}
+.p1{
+    font-size: 16px;
+    font-size: 600;
+}
+.footer{
+     background-color: #337ab7;
+     color: #ffffff;
+     text-align: center;
+     
+}
+@media (max-width: 500px) {
+    p {
+       font-size: 14px;
+        
+    }
+    .p2{
+        font-size: 10px;
+    }
+
+    
+}
