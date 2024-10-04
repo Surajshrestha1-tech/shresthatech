@@ -9,6 +9,13 @@
      background-color: #337ab7;
      color: #ffffff;
 }
+ .entry {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 20px;
+    color: #000000;
+}
 .row{
    
     
@@ -30,8 +37,29 @@ p{
      background-color: #337ab7;
      color: #ffffff;
      text-align: center;
+     padding-top:5px;
+     padding-bottom: 5px;
      
 }
+  /* Style for keeping radio buttons in the same line */
+  .gender-options {
+    display: flex; /* Use flexbox for alignment */
+    align-items: center; /* Center align vertically */
+}
+.gender-options input {
+    margin-right: 4px; /* Space between radio button and label (4px gap) */
+}
+.gender-options label {
+    margin-right: 20px; /* Space between labels */
+}
+.welcome{
+    background-color: #7abbf360;
+    border-radius: 5px;
+    border: 3px solid #9bc7ee3a;
+    color: #132330;
+  
+}
+
 @media (max-width: 500px) {
     p {
        font-size: 14px;
@@ -39,6 +67,11 @@ p{
     }
     .p2{
         font-size: 10px;
+    }
+    .image{
+        display: flex;
+        justify-content: center;
+        width: 200px;
     }
 
     
