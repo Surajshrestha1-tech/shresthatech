@@ -59,6 +59,10 @@ p{
     color: #132330;
   
 }
+.botn{
+    color: #ffffff;
+    text-decoration: none;
+}
 
 @media (max-width: 500px) {
     p {
